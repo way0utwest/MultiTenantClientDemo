@@ -171,7 +171,9 @@
     <Folder Include="Programmable Objects\dbo\Stored Procedures\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Migrations\001_20200417-1520_Steve.sql" />
     <None Include="Pre-Deployment\01_Create_Database.sql" />
+    <None Include="Schema-Model\dbo\Tables\Supplier_Client001.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Post-Deployment\01_Finalize_Deployment.sql" />
