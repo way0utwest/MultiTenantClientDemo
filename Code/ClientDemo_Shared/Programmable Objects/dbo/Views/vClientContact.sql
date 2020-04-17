@@ -6,13 +6,14 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
+
 CREATE VIEW [dbo].[vClientContact]
 AS
 SELECT fc.FirmContactID
      , fc.FirmID
      , fc.ContactName
-     , f.FirmName
-     , c.ClientName
+     , f.FirmName 'Firm'
+     , c.ClientName 'Client'
  FROM dbo.FirmContact AS fc
  INNER JOIN dbo.Firm AS f
  ON f.FirmID = fc.FirmID
