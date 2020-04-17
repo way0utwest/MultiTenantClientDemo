@@ -18,3 +18,6 @@ CREATE DATABASE ClientDemo_1_Client1
 GO
 CREATE DATABASE ClientDemo_1_Client2
 GO
+CREATE DATABASE clientdemo_4_blank
+GO
+CREATE DATABASE clientdemo_4_Shared
