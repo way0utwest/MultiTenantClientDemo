@@ -12,6 +12,7 @@ AS
 BEGIN
    -- TODO add check for valid ID
    -- TODO add transaction
+   BEGIN TRAN
     UPDATE dbo.Firm
 	 SET Active = 0
 	 WHERE ClientID = @clientid
@@ -19,5 +20,8 @@ BEGIN
 	 UPDATE dbo.Client
 	  SET Active = 0
 	  WHERE ClientID = @clientid
+	IF @@ERROR = 0
+	 COMMIT
+	 ELSE ROLLBACK
 END
 GO
