@@ -1,0 +1,16 @@
+Goal
+- Have two databases, one that is "Shared" and one that is Client001.
+- All code from Shared needs to be in Client001
+- A project for Shared that has the objects for this db.
+- A project for Client001 that only has objects for itself.
+
+What I've tried
+1. Created a SCA project for Shared
+2. Created a filter for project Shared that excludes anything with "_Client001"
+3. Created a dependent project for Client001 with a filter with include ends with "Client001"
+4. Committed objects from Shared, setup Build, and Create Release - all working
+5. Added Build for Client001, which is a single object. This error comes back
+
+##[warning]	Copy: ERROR C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Microsoft.Common.targets(3540,5): Could not copy the file "E:\platoagent\_work\2\s\Code\ClientDemo_Shared\bin\Debug\" to the destination file "bin\Debug\", because the destination is a folder instead of a file. To copy the source file into a folder, consider using the DestinationFolder parameter instead of DestinationFiles.
+
+

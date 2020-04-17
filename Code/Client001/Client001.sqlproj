@@ -7,7 +7,7 @@
     <Name>Client001</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{ca56f9c2-77d4-4f42-91c6-bfffebf73f9e}</ProjectGuid>
+    <ProjectGuid>{5b7b0bd8-6436-48de-bb4e-8c55af9273c3}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql140DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -175,13 +175,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Post-Deployment\01_Finalize_Deployment.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ClientDemo_Shared\ClientDemo_Shared.sqlproj">
-      <Name>ClientDemo_Shared</Name>
-      <Project>{e236b801-2908-4019-a7e0-de46bdd599c1}</Project>
-      <Private>True</Private>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Programmable Objects\dbo\Stored Procedures\GetSomething_Client001.sql" />
