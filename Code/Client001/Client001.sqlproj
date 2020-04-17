@@ -173,6 +173,7 @@
   <ItemGroup>
     <None Include="Migrations\001_20200417-1520_Steve.sql" />
     <None Include="Pre-Deployment\01_Create_Database.sql" />
+    <None Include="Programmable Objects\dbo\Stored Procedures\DeactivateClient.sql" />
     <None Include="Schema-Model\dbo\Tables\Supplier_Client001.sql" />
   </ItemGroup>
   <ItemGroup>
