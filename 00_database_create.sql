@@ -10,14 +10,17 @@ Structure assumptions
 */
 CREATE DATABASE ClientDemo_1_Shared
 GO
-CREATE DATABASE ClientDemo_5_Shared
-GO
 CREATE DATABASE ClientDemo_3_Shared
 GO
-CREATE DATABASE ClientDemo_1_Client1
+CREATE DATABASE ClientDemo_1_Client001
 GO
-CREATE DATABASE ClientDemo_1_Client2
+CREATE DATABASE ClientDemo_1_Client002
 GO
-CREATE DATABASE clientdemo_4_blank
+CREATE DATABASE ClientDemo_4_blank
 GO
-CREATE DATABASE clientdemo_4_Shared
+CREATE DATABASE ClientDemo_4_Shared
+GO
+CREATE DATABASE ClientDemo_4_Client001
+GO
+CREATE DATABASE ClientDemo_4_Client002
+GO
