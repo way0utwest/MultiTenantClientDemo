@@ -2,7 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-CREATE PROCEDURE [dbo].[dbo.GetFirmsForClient_Shared]
+CREATE PROCEDURE [dbo].[GetFirmsForClient_Shared]
   @clientid INT 
 AS
 BEGIN

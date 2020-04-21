@@ -3,7 +3,7 @@ GO
 SET ANSI_NULLS ON
 GO
 
-CREATE PROCEDURE [dbo].[dbo.NewProc_Client002]
+CREATE PROCEDURE [dbo].[NewProc_Client002]
 AS
 BEGIN
    SELECT 'Client 2 new Proc'

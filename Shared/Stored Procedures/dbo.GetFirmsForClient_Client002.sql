@@ -3,7 +3,7 @@ GO
 SET ANSI_NULLS ON
 GO
 
-CREATE PROCEDURE [dbo].[dbo.GetFirmsForClient_Client002]
+CREATE PROCEDURE [dbo].[GetFirmsForClient_Client002]
   @clientid INT 
 AS
 BEGIN
