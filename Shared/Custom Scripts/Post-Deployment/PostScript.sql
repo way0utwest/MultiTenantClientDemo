@@ -13,4 +13,7 @@ IF RIGHT(DB_NAME(), 9) = 'Client002'
 BEGIN
     DROP SYNONYM IF EXISTS dbo.AddFirm
 	CREATE SYNONYM dbo.AddFirm FOR dbo.AddFirm_Client002
+
+	DROP SYNONYM IF EXISTS dbo.GetFirmsForClient
+	CREATE SYNONYM dbo.GetFirmsForClient FOR dbo.GetFirmsForClient_Client002
 END
